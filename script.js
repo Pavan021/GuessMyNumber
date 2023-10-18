@@ -1,25 +1,5 @@
 "use strict";
-/*
-//DOM manipulaion
 
-//To read content in the element
-console.log(document.querySelector(".message").textContent);
-
-//To add content
-document.querySelector(".message").textContent = "Finish Guessing i am tired!!";
-console.log(document.querySelector(".message").textContent);
-//To read input value
-document.querySelector(".guess").value = 24;
-console.log(document.querySelector(".guess").value);
-
-*/
-
-/*
-//Function value and expression
-const x=function(){
-    console.log('i am function value and i became function expression!');
-}
-*/
 let secretNumber = Math.trunc(Math.random() * 20) + 1;
 //document.querySelector(".number").textContent = secretNumber;
 let score = 20;
